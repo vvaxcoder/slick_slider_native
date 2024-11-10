@@ -1,11 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function() {
+	// 1. initiation of slick slider
 	$('.slider').slick({
-		arrows:true,
-		dots:true,
-		slidesToShow:3,
-		autoplay:true,
-		speed:1000,
-		autoplaySpeed:800,
+		arrows: true,
+		dots: true,
+		slidesToShow: 3,
+		autoplay: true,
+		speed: 1000,
+		autoplaySpeed: 800,
 		responsive:[
 			{
 				breakpoint: 768,
